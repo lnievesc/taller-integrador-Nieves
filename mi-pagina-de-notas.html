@@ -28,7 +28,7 @@
 
 <script>
 
-let data1 = [];
+
 let Promedio = 0;
 let CantidadNotas = 3;
 
@@ -38,7 +38,7 @@ function calcularPromedio() {
     let nota2 = parseFloat(document.getElementById("nota2").value);
     let nota3 = parseFloat(document.getElementById("nota3").value);
 
-    console.log("valores capturados:", a, b, c);
+
 
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
         document.getElementById("resultado-promedio").innerHTML = "Debe ingresar las tres notas.";
@@ -55,15 +55,9 @@ function calcularPromedio() {
         document.getElementById("resultado-estado").innerHTML = "Resultado: reprobado";
     }
 
-    console.log("promedio calculado");
 }
 
-// function calcularAntiguo(nota1, nota2) {
-//     let suma = nota1 + nota2;
-//     return suma / 2;
-// }
 
-console.log("pagina cargada");
 
 </script>
 
