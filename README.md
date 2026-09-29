@@ -17,4 +17,4 @@
 
 ## Sitio publicado
 
-Enlace: Pendiente de publicación en Netlify.
+Enlace: https://calculadorapromediol.netlify.app
